@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, #34dbca, #5e57ad);
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+span{
+    font-weight: bold;
+}
+.container{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 300px;
+    margin: 200px auto;
+    border-radius: 1cap;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.blocEntrees{
+    /* background-color: #34dbca; */
+    display: flex;
+    justify-content: space-around; 
+}
+
+.entree{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5cap;
+}
+.blocTaille{
+    /* background-color: #5e57ad; */
+    
+}
+
+.blocPoids{
+    /* background-color: coral; */
+}
+
+.btn{
+    width: 400px;
+    height: 100px;
+    /* background-color: darkgoldenrod; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.btnCalculer{
+    width: 200px;
+    height: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    font-weight: bold;
+    border-radius: 0.5cap;
+    background-color: rgb(255, 217, 80);
+}
+
+.blocResultat{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#IDresultatCalcImc{    
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    font-size: large;
+}
+#IDresultatSanteImc{    
+    background-color: transparent;
+    border: none;
+}
